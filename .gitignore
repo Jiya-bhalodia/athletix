@@ -1,0 +1,17 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+
+# Local database files (keep any committed fixtures under source-controlled test paths)
+backend/data/
+backend/mongodb-data/
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
